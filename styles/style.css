@@ -358,3 +358,45 @@ font-weight: 400;
     margin: 100px 0px;
 }
 /* footer ends here */
+.tour-packages{
+    margin: 100px 0;
+}
+.tour-packages h1{
+text-align: center;
+    margin-bottom: 50px;
+}
+.package-offers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+.package-offers img{
+    width: 95%;
+    height: 300px;
+    border-radius: 10px;
+}
+.package-bangkok:hover .image1{
+    transform: scale(1.2);
+    opacity:.7;
+    transition: 0.5s linear;
+    
+}
+.package-maldive:hover .image2{
+    transform: scale(1.2);
+    opacity:.7;
+    transition: 0.5s linear;
+}
+.package-nepal:hover .image3{
+    transform: scale(1.2);
+    opacity:.7;
+    transition: .5s linear;
+}
+.package-bangkok h1{
+    color: #5A5A5D;
+}
+.package-maldive h1{
+    color: #5A5A5D;
+}
+.package-nepal h1{
+    color: #5A5A5D;
+}
