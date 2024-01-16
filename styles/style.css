@@ -1,0 +1,360 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* common styles */
+.section-title{
+    color: #131318;
+    font-size:2.5rem;
+    font-weight: 800;
+}
+.section-details{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* nav styles starts here */
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.nav-title img{
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+    
+}
+.nav-title h2{
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin-left: 15px;
+}
+.nav-title .destination{
+    color: #FF5400; ;
+}
+.nav-items a{
+   text-decoration: none;
+   font-size: 1.1rem;
+   margin-left: 40px;
+   color:  #424247;
+
+}
+.nav-items{
+    align-items: center;
+    display: flex;
+}
+.nav-items #home{
+    color: #FF5400;
+    font-weight: 700px;
+}
+/* nav ends here */
+
+/* banner starts here */
+.banner{
+    background-image:url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-blend-mode: color;
+    background-color:rgba(24, 23, 23, 0.5);
+    width: 1195px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.banner-text {
+    
+    padding: 0 100px;
+}
+.banner-text h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+.banner-text p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.banner-input{
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin-top: 40px;
+   
+}
+.banner-input input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border-style: none;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 30px;
+   
+}
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #FF5400;
+}
+
+
+/* banner styles ends here */
+
+/* popular tour section styles starts here */
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.popular-tour{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.tour-details{
+    padding: 0 30px;
+}
+ 
+/* popular tour section styles ends here */
+
+/* destination section starts here */
+.destination{
+    text-align: center;
+    margin-top: 100px;
+}
+.destination p{
+    padding:0 200px;
+}
+.destination-images{
+    padding-top: 30px;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    margin: 20px 15px;
+}
+.places-container{
+    position: relative;
+}
+.maldives-text{
+    position: absolute;
+   left: 220px;
+   top: 120px;
+   color: white;
+    font-weight: 800;
+}
+.Indonesia-text{
+    position: absolute;
+    left: 220px;
+    top: 120px;
+    color: white;
+     font-weight: 800;
+}
+.srilanka-text{
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    color: white;
+    font-weight: 800;
+}
+.america-text{
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    color: white;
+    font-weight: 800;
+}
+.kashmir-text{
+    position: absolute;
+    left: 90px;
+    top: 120px;
+    color: white;
+    font-weight: 800;
+}
+.bangladesh-text{
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    color: white;
+    font-weight: 800;
+}
+.bandarban-text{
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    color: white;
+    font-weight: 800;
+}
+
+/* destination section ends here */
+
+
+/* chhose us section starts here */
+.chooseUs{
+    margin-top: 100px;
+}
+.chooseUs .section-title{
+    text-align: center;
+}
+.chooseUs .section-details{
+    text-align: center;
+}
+
+.hotel-services-container1{
+display: flex;
+justify-content: space-between;
+margin:50px 0px ;
+
+}
+.hotel-services-container2{
+    display: flex;
+    justify-content: center;
+}
+.card{
+width: 500px;
+height: 250px;
+flex-shrink: 0;
+padding-left: 20px;
+padding-top: 10px;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.card-description{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+.hotel-services-container1 .card-hotel{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.hotel-services-container1 .card-map{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.hotel-services-container2 .card-price{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+/* chhose us section ends here */
+
+/* newsletter section starts here */
+.newsletter{
+   
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.news-title{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+}
+.news-description{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+
+}
+.newsletter-field{
+    padding-top: 10px;
+   
+}
+.newsletter-field input{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    margin:20px 0px ;
+    padding-left: 10px;
+}
+.newsletter-field .btn-primary{
+    width: 393px;
+}
+.save{
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    left: 327px;
+    bottom: 165px;
+    transform: rotate(-19.628deg);
+}
+.save p{
+     font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+}
+.save h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0px;
+    text-align: center;
+    
+}
+/* newsletter section ends here */
+
+/* footer starts here */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+ 
+}
+.footer-container{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.footer-container .footer-details{
+    text-align: center;
+    margin: 20px 200px;
+    
+    color: #5A5A5D;
+    font-weight: 400;
+
+}
+.footer-container .icons{
+    margin: 50px 0px;
+}
+.footer-container .nav-title{
+   margin-left: 500px;
+}
+.footer-container .reserved{
+    margin: 100px 0px;
+}
+/* footer ends here */
